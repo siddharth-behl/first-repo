@@ -37,4 +37,5 @@
 `git merge <name of the branch to merge>-it will add the changes from the branch to the main branch.`
 `git clean <-i or -f or -n> - us this command to remove the untracked files -i for different commands and filters and -f to delete all and -n to show all the files that are going to be deleted`
 `git tag -a <name_of_tag> -m <message_for_tag> <commit_uid>-  this will create an easy name for the commit uids that can be accessed without using uid and instad using the tagname assigned to that version.`
+`git push --tags or git push origin --tags - it will push it to remote repo `
 `when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked `
