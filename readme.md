@@ -22,4 +22,11 @@ git log --pretty=format:"%h - it was generated %ar by %an  and version is ---->%
 %an - author name-  to see what is the user.name
 %s- it is the string or the message you gave while commiting.
 
+git log --grep="<text>"- it will search the version which is having <text> in the commit message. 
+git log -S <type_text_you_want_to_search_in_any_file>- it will give you info only about the files from which the text you entered is added or removed
+git log --since=<date>- all the data after the <date>
+git log --until=<date>- all the data before the <date>
+git log --author=<name>- to get data of a particular author
+git log --no-merges- By using git log --no-merges, you filter out these merge commits, giving you a clearer view of the commit history with only the non-merge commits displayed. This can be particularly useful when you're trying to understand the chronological order of changes, track down when specific features or bug fixes were implemented, or simply reviewing the history of a project without the distraction of merge commits.
+
 when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked 
