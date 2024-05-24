@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(to right,#ff7e5f, #feb47b); /* Gradient from left to right */
+}
+
+p {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
