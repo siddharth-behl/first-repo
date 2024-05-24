@@ -34,4 +34,5 @@ git branch <name_of_branch> -  to create a new branch(use -d flag to delete a br
 git checkout <branch_name>- to get to that branch you have created to specifically work on it.
 git push - to push the changes from local machine to the remote repo
 git pull - to get the changes from remote repo to local repo
+git push origin <branch_name> -to push a branch to github
 when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked 
