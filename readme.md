@@ -11,4 +11,7 @@ git restore <filename or . for all> - to restore the particular file or all file
 git show <unique-commit-id>- to
 git restore --staged <filename>- to remove from staging phase .
 git restore --worktree <filename> -  to remove the changes from the file before staging process
+git reset <--hard><OR><--soft> HEAD^ - this will remove the latest version of the commit and will send you back to the previous version now if you use soft it will just uncommit the version but will keep the data intact but if you use hard it will remove the data too from the file that was changed in the particular version .
+Using `--soft` will uncommit the changes but keep them intact, while `--hard` will remove the changes from the working directory as well.
+
 when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked 
