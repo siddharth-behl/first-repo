@@ -35,4 +35,5 @@
 `git pull - to get the changes from remote repo to local repo`
 `git push origin <branch_name> -to push a branch to github`
 `git merge <name of the branch to merge>-it will add the changes from the branch to the main branch.`
+`git clean <-i or -f or -n> - us this command to remove the untracked files -i for different commands and filters and -f to delete all and -n to show all the files that are going to be deleted`
 `when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked `
