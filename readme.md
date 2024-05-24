@@ -30,6 +30,8 @@ git log --author=<name>- to get data of a particular author
 git log --no-merges- By using git log --no-merges, you filter out these merge commits, giving you a clearer view of the commit history with only the non-merge commits displayed. This can be particularly useful when you're trying to understand the chronological order of changes, track down when specific features or bug fixes were implemented, or simply reviewing the history of a project without the distraction of merge commits.
 git remote -v - to check if the remote repo  is linked to local repo or not -v is to check which repo is linked to it and it also gives the link to repo
 git branch - to check all the branches
-git branch <name_of_branch> -  to create a new branch
+git branch <name_of_branch> -  to create a new branch(use -d flag to delete a branch)
 git checkout <branch_name>- to get to that branch you have created to specifically work on it.
+git push - to push the changes from local machine to the remote repo
+git pull - to get the changes from remote repo to local repo
 when a file is not tracked it is untracked then when we do git add then it goes to the staging area then when we commit the file then it gets tracked 
